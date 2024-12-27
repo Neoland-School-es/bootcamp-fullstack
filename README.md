@@ -2,7 +2,7 @@
 
 Repositorio para el Bootcamp de Fullstack de Neoland, en su convocatoria de Enero de 2025.
 
-A continuación tenéis las instrucciones para configurar vuestro equipo, es un paso fundamental para poder trabajar con el código así que ve paso a paso y si tienes cualquier duda intenta resolverla primero con tu squad o en caso de encontrar un problema puedes [crear una incidencia](https://github.com/Neoland-School-es/bootcamp-fullstack/issues) en el panel de control del repositorio.
+A continuación tenéis las instrucciones para configurar vuestro equipo, es un paso fundamental para poder trabajar con el código así que ve paso a paso y si tienes cualquier duda intenta [resolverla primero con tu squad](https://github.com/Neoland-School-es/bootcamp-fullstack/discussions/) o en caso de encontrar un problema puedes [crear una incidencia](https://github.com/Neoland-School-es/bootcamp-fullstack/issues) en el panel de control del repositorio.
 
 ## Programas necesarios
 
