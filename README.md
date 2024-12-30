@@ -10,6 +10,7 @@ Necesitas instalar los siguientes programas para llevar a cabo el curso:
 
 * [Google Chrome](https://www.google.com/intl/es_es/chrome/) será nuestro navegador de desarrollo
 * [VS Code](https://code.visualstudio.com/) es la herramienta que usaremos para programar, y las extensiones que usaremos:
+  * [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) es un servidor local para nuestras páginas html dentro de VS Code
   * [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) nos ayudará a documentar cada cambio de código que subamos al repositorio
   * [commitlint](https://marketplace.visualstudio.com/items?itemName=joshbolduc.commitlint) se asegurará de que escribamos bien los comentarios de los cambios en el repositorio
   * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) nos chivará los errores que cometamos en el código, es una herramienta fundamental para agilizar nuestro trabajo
@@ -59,7 +60,7 @@ Necesitas instalar los siguientes programas para llevar a cabo el curso:
 
 **Git** necesita identificar nuestro usuario a la hora de recibir nuestro código, así que tenemos que ejecutar estos dos comandos en el terminal para poder subir el código local al repositorio, **usa el email que tengas configurado en github.com**:
 
-```terminal
+```bash
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
