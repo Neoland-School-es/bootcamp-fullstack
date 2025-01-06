@@ -68,38 +68,209 @@ Para más información, mejor [leer la referencia](https://git-scm.com/docs/gitm
 
 ## [Principios de programación SOLID](https://en.wikipedia.org/wiki/SOLID)
 
-* Single responsibility principle: cada clase debería tener una única responsabilidad
-* Open–closed principle: las entidades deberían ser abiertas a la hora de poder extenderlas, pero cerradas a la hora de modificarlas
-* Liskov substitution principle: el uso de métodos o referencias de una clase base no de cambiar al ser usadas desde una clase derivada
-* Interface segregation principle: eliminación de dependencias innecesarias
-* Dependency inversion principle: creación de dependencias basadas en abstracciones, no en concreciones
+* **Single responsibility principle:** cada clase debería tener una única responsabilidad
+* **Open-closed principle:** las entidades deberían ser abiertas a la hora de poder extenderlas, pero cerradas a la hora de modificarlas
+* **Liskov substitution principle:** el uso de métodos o referencias de una clase base no de cambiar al ser usadas desde una clase derivada
+* **Interface segregation principle:** eliminación de dependencias innecesarias
+* **Dependency inversion principle:** los estados dependen de abstracciones, no de concreciones
 
-## Patrones de diseño en JS
+## [Patrones de diseño en JS](https://refactoring.guru/design-patterns)
 
-* Closures
-* Namespaces
-* Currying
-* Context
-* Constructores
-* Modulos (Módulos ES6)
-* Singleton
-* Modelo Vista Controlador
-* Inyección de dependencias
-* Control de timeouts en peticiones XHR con abort
-* Reactividad (signals)
+* Creacional: esta categoría se centra en los mecanismos de creación de objetos que optimizan y controlan la creación de objetos. Ejemplos: Factory, Builder, Singleton, Abstract y Prototype
+* Estructural: esta categoría se centra en las relaciones entre objetos. Garantizan que si una parte de un sistema cambia, no es necesario que todo el sistema cambie junto con ella. Ejemplos: Adapter, Decorator, Composite y Bridge
+* Conductual: esta categoría reconoce, implementa y mejora la comunicación entre objetos dispares en un sistema. Garantiza que las partes dispares de un sistema tengan información sincronizada. Ejemplos: Command, Momento y Observer
+
+Lecturas recomendadas:
+
+* [Patrones de arquitectura y diseño en JavaScript](https://medium.com/@hjkmines/javascript-design-and-architectural-patterns-cfa900c6fe41)
+* [Decoradores en JavaScript](https://www.sitepoint.com/javascript-decorators-what-they-are/)
 
 ## Programación orientada a objetos
 
 * Prototipos
-* Call, Apply, Bind
 * Herencia
-* Mixin
+* [Mixin](https://developer.mozilla.org/en-US/docs/Glossary/Mixin)
+* [Call](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call), [Apply](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply), [Bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind), [Assign](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
 
-## Expresiones regulares
+## Modelo Vista Controlador
 
-## Tipado de variables con Typescript
+Patrones de arquitectura
 
-## Validación de tipados con JSDOC
+* [Model-View-Controller](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) (MVC)
+* [Model-View-Presenter](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter) (MVP)
+* [Model-View-ViewModel](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel) (MVVM)
+* [Hexagonal](https://en.wikipedia.org/wiki/Hexagonal_Architecture), también conocida por _Ports And Adapters_
+* [Microservices](https://en.wikipedia.org/wiki/Microservices)
+* [Monolithic](https://en.wikipedia.org/wiki/Monolithic_application)
+
+Lectura recomendada: [Arquitectura orientada al dominio](https://dev.to/itswillt/a-different-approach-to-frontend-architecture-38d4)
+
+## Inyección de dependencias
+
+### [Módulos](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
+
+[Importación de archivos estáticos](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import/with):
+
+```js
+import data from 'https://example.com/data.json' with { type: 'json' };
+import styles from 'https://example.com/styles.css' with { type: 'css' };
+```
+
+[Importación dinámica de módulos](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules#dynamic_module_loading)
+
+Importar un módulo sólo para obtener sus _side effects_:
+
+```js
+(async () => {
+  if (somethingIsTrue) {
+    await import('/modules/my-module.js');
+  }
+})();
+```
+
+Importar un módulo dinámicamente, respondiendo al momento en el que se descargue:
+
+```js
+import * as mod from '/my-module.js';
+
+import('/my-module.js').then((mod2) => {
+  console.log(mod === mod2); // true
+});
+```
+
+```js
+const main = document.querySelector('main');
+for (const link of document.querySelectorAll('nav > a')) {
+  link.addEventListener('click', (e) => {
+    e.preventDefault();
+
+    import('/modules/my-module.js')
+      .then((module) => {
+        module.loadPageInto(main);
+      })
+      .catch((err) => {
+        main.textContent = err.message;
+      });
+  });
+}
+```
+
+Importar módulos según el entorno de ejecución:
+
+```js
+let myModule;
+
+if (typeof window === 'undefined') {
+  myModule = await import('module-used-on-server');
+} else {
+  myModule = await import('module-used-in-browser');
+}
+```
+
+Importar módulos en bloque iterando arrays:
+
+```js
+Promise.all(
+  Array.from({ length: 10 }).map(
+    (_, index) => import(`/modules/module-${index}.js`),
+  ),
+).then((modules) => modules.forEach((module) => module.load()));
+```
+
+Exportación asíncrona:
+
+```js
+const colors = fetch('../data/colors.json').then((response) => response.json());
+
+export default await colors;
+```
+
+[Import maps](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules#importing_modules_using_import_maps)
+
+```json
+<script type="importmap">
+  {
+    "imports": {
+      "shapes": "./shapes/square.js",
+      "shapes/square": "./modules/shapes/square.js",
+      "https://example.com/shapes/square.js": "./shapes/square.js",
+      "https://example.com/shapes/": "/shapes/square/",
+      "../shapes/square": "./shapes/square.js"
+    }
+  }
+</script>
+```
+
+```js
+import { name as squareNameOne } from 'shapes';
+import { name as squareNameTwo } from 'shapes/square';
+import { name as squareNameThree } from 'https://example.com/shapes/square.js';
+```
+
+## Conceptos avanzados de JavaScript
+
+* [Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+* [Scope](https://developer.mozilla.org/en-US/docs/Glossary/Scope)
+* [Namespaces](https://developer.mozilla.org/en-US/docs/Glossary/Namespace)
+* [Currying](https://javascript.info/currying-partials)
+* [Expresiones regulares](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp): [regexr](https://regexr.com/), [regex101](https://regex101.com/)
+* Control de timeouts en peticiones XHR con AbortSignal
+
+Aplicando el uso de la API de [AbortSignal](https://developer.mozilla.org/en-US/docs/Web/API/AbortSignal) podemos optimizar las llamadas fetch de nuestra aplicación, y controlarlas de manera más profesional.
+
+```js
+// 1. Definimos nuestra propia clase para gestionar los errores,
+// ya que las peticiones erróneas no devuelven un status adecuado cuando lanzan un error normal:
+export class HttpError extends Error {
+  constructor(response) {
+    super(`HTTP error ${response.status}`);
+  }
+}
+```
+
+```js
+// 2. Creamos un método para gestionar las peticiones fetch que se aproveche de la clase anterior:
+export async function simpleFetch (url, options) {
+  const result = await fetch(url, options);
+  if (!result.ok) {
+    throw new HttpError(result);
+  }
+  return (await result.json());
+}
+```
+
+De esta manera, podríamos usar:
+
+```js
+try {
+  const result = await simpleFetch('/url', {
+    // Si la petición tarda demasiado, la abortamos
+    signal: AbortSignal.timeout(3000),
+  });
+} catch (err) {
+  if (err.name === 'AbortError') {
+    console.error('Fetch abortado');
+  }
+  if (err instanceof HttpError) {
+    if (err.response.status === 404) {
+      console.error('Not found');
+    }
+    if (err.response.status === 500) {
+      console.error('Internal server error');
+    }
+  }
+}
+```
+
+## Tipado de variables
+
+### Tipado nativo de JavaScript
+
+### Tipado con Typescript
+
+### Validación de tipados con JSDOC
+
+## Reactividad (signals)
 
 ## REDUX Store
 
