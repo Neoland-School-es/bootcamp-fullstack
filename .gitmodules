@@ -4,3 +4,24 @@
 [submodule "bryanprestige"]
 	path = bryan
 	url = https://github.com/bryanprestige/NEOLAND-BOOTCAMP-BRYAN-.git
+[submodule "costantinav"]
+	path = costantina
+	url = https://github.com/costantinav/Matrix.test-
+[submodule "csuarezlz"]
+	path = clara
+	url = https://github.com/csuarezLZ/prueba1
+[submodule "just-alcaide"]
+	path = alberto
+	url = https://github.com/Just-Alcaide/Neoland-WD-Repo1
+[submodule "jramoncarralero"]
+	path = jramon
+	url = https://github.com/JRamonCarralero/JRC-repositorio
+[submodule "javiribs"]
+	path = javi
+	url = https://github.com/Javiribs/bootcamp_dev
+[submodule "cxarloss"]
+	path = carlos
+	url = https://github.com/CXarlosss/neoland-fullstack-bootcamp.git
+[submodule "carmentajuelo"]
+	path = carmen
+	url = https://github.com/CarmenTajuelo/MCT_Neoland
