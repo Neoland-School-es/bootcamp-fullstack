@@ -1,3 +1,6 @@
 [submodule "isorna"]
 	path = isorna
 	url = https://github.com/isorna/neoland-bootcamp-fullstack.git
+[submodule "bryanprestige"]
+	path = bryan
+	url = https://github.com/bryanprestige/NEOLAND-BOOTCAMP-BRYAN-.git
