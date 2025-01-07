@@ -11,7 +11,7 @@ Necesitas instalar los siguientes programas para llevar a cabo el curso:
 * [Google Chrome](https://www.google.com/intl/es_es/chrome/) será nuestro navegador de desarrollo
 * [VS Code](https://code.visualstudio.com/) es la herramienta que usaremos para programar, y las extensiones que usaremos:
   * [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) es un servidor local para nuestras páginas html dentro de VS Code
-  * [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) nos ayudará a documentar cada cambio de código que subamos al repositorio
+  * [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) nos ayudará a documentar cada cambio de código que subamos al repositorio. Podéis leer la documentación oficial en [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
   * [commitlint](https://marketplace.visualstudio.com/items?itemName=joshbolduc.commitlint) se asegurará de que escribamos bien los comentarios de los cambios en el repositorio
   * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) nos chivará los errores que cometamos en el código, es una herramienta fundamental para agilizar nuestro trabajo
   * [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) igualmente se encargará de guiarnos en la senda del buen programador, a la hora de editar estilos css
