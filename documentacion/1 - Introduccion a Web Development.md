@@ -6,6 +6,13 @@
 
 ## Crear repositorios en GitHub
 
+* [Documentación de Github.com](https://docs.github.com/es)
+
 ## Crear y trabajar con ramas
 
 ## Accesibilidad, Usabilidad y Posicionamiento
+
+## Ideas para desarrollar
+
+* [Catálogo de componentes](https://www.opencells.dev/)
+* [Material Design](https://m3.material.io/)
