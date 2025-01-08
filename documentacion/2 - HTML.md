@@ -28,6 +28,8 @@
 
 ## Tablas
 
+* [Tablas](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)
+
 ## Contenedores DIV y SPAN
 
 * [Div](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div)
@@ -35,9 +37,9 @@
 
 ## Contenido multimedia
 
-* Audio
-* Video
-* SVG
+* [Audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio)
+* [Video](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video)
+* [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG)
 
 ## Formularios
 
