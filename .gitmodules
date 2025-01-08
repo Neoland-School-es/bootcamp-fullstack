@@ -25,3 +25,6 @@
 [submodule "carmentajuelo"]
 	path = carmen
 	url = https://github.com/CarmenTajuelo/MCT_Neoland
+[submodule "jotanore"]
+	path = julen
+	url = https://github.com/Jotanore/NeolandBootcamp
