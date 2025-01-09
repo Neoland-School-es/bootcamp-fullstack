@@ -6,6 +6,14 @@
 
 ## Selectores
 
+* [nth-child](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child)
+* [last-child](https://developer.mozilla.org/en-US/docs/Web/CSS/:last-child)
+* [has](https://developer.mozilla.org/en-US/docs/Web/CSS/:has)
+* [first-of-type](https://developer.mozilla.org/en-US/docs/Web/CSS/:first-of-type)
+* [not](https://developer.mozilla.org/en-US/docs/Web/CSS/:not)
+* [required](https://developer.mozilla.org/en-US/docs/Web/CSS/:required)
+* [valid](https://developer.mozilla.org/en-US/docs/Web/CSS/:valid)
+
 ## Colores y tipografías
 
 ## [El modelo de la caja](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model)
