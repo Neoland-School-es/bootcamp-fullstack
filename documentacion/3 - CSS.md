@@ -16,6 +16,8 @@
 
 ## Colores y tipografías
 
+* [Background image](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image)
+
 ## [El modelo de la caja](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model)
 
 ## Disposición en pantalla
