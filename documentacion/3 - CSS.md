@@ -2,6 +2,8 @@
 
 ## Introducción a CSS
 
+* [Reset CSS de Eric Meyer](https://meyerweb.com/eric/tools/css/reset/)
+
 ## Selectores
 
 ## Colores y tipografías
@@ -21,6 +23,8 @@
   * [Grid Garden](https://cssgridgarden.com/#es)
 
 ## Diseño Responsive
+
+* [Link Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link)
 
 ## CSS Animado
 
