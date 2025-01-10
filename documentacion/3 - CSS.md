@@ -41,11 +41,13 @@
 
 ## CSS Animado
 
-* Transiciones
-* Transformaciones
-* Animaciones
+* [Transiciones](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
+* [Transformaciones](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
+* [Animaciones](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
 
 ## Variables CSS
+
+* [Variables CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/var)
 
 ## Preprocesadores
 
