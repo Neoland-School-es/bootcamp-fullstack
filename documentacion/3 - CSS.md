@@ -51,5 +51,9 @@
 
 ## Preprocesadores
 
-* SASS
-* SCSS
+* [SASS](https://sass-lang.com/) (SCSS)
+
+## Frameworks CSS
+
+* [Tailwind](https://tailwindcss.com/)
+* [Bootstrap](https://getbootstrap.com/docs/3.4/css/)
