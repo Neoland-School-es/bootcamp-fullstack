@@ -3,18 +3,18 @@
 ## Conceptos básicos de programación
 
 * [Pseudocódigo](https://kinsta.com/es/base-de-conocimiento/que-es-pseudocodigo/)
-  * INPUT
-  * SET
-  * PRINT
-  * READ
-  * DISPLAY
-  * SHOW
-  * CALCULATE
-  * IF-ELSE
-  * CASE
-  * FOR
-  * WHILE
-  * DO-WHILE / REPEAT-UNTIL
+  * INPUT: pides información al usuario
+  * SET: guardas información en una variable
+  * PRINT: muestras un valor o mensaje en la pantalla
+  * READ: lees un archivo o documento
+  * DISPLAY: muestras una ventana nueva
+  * SHOW / HIDE: muestras u ocultas un elemento de interfaz
+  * CALCULATE: realiza un cálculo
+  * IF-ELSE: ejecuta una acción si se cumple una condición (o en el caso de que no se cumpla)
+  * CASE: realiza acciones a partir de una lista de preguntas sobre un mismo valor
+  * FOR: realiza acciones sobre una lista de elementos, o a partir de ellos
+  * WHILE: realiza acciones mientras se cumpla una condición
+  * DO-WHILE / REPEAT-UNTIL: realiza una acción, y luego continúa haciéndolo mientras se cumpla una condición (o deje de cumplirse)
 
 * [Diagramas de flujo](https://www.canva.com/es_es/pizarra-online/diagramas-flujo/)
 * [Documentación](https://jsdoc.app/about-getting-started)
