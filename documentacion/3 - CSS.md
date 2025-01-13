@@ -35,6 +35,8 @@
 
 ## [Diseño Responsive](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries)
 
+![Diseño responsive](./assets/responsive.png)
+
 * [Link Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link)
 * [calc()](https://developer.mozilla.org/en-US/docs/Web/CSS/calc)
 * [Responsive Images](https://developer.mozilla.org/en-US/docs/Web/HTML/Responsive_images)
