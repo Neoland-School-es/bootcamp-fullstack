@@ -3,6 +3,19 @@
 ## Conceptos básicos de programación
 
 * [Pseudocódigo](https://kinsta.com/es/base-de-conocimiento/que-es-pseudocodigo/)
+  * INPUT
+  * SET
+  * PRINT
+  * READ
+  * DISPLAY
+  * SHOW
+  * CALCULATE
+  * IF-ELSE
+  * CASE
+  * FOR
+  * WHILE
+  * DO-WHILE / REPEAT-UNTIL
+
 * [Diagramas de flujo](https://www.canva.com/es_es/pizarra-online/diagramas-flujo/)
 * [Documentación](https://jsdoc.app/about-getting-started)
 
