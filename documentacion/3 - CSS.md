@@ -35,6 +35,12 @@
 
 ## [Diseño Responsive](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries)
 
+**Lecturas recomendadas:**
+
+* [Progressive Enhancement](https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement)
+* [Graceful Degradation](https://developer.mozilla.org/en-US/docs/Glossary/Graceful_degradation)
+* [Progressive Enhancement vs Graceful Degradation](https://www.browserstack.com/guide/difference-between-progressive-enhancement-and-graceful-degradation#:~:text=Progressive%20enhancement%20is%20usually%20the,but%20builds%20towards%20it%20gradually.)
+
 ![Diseño responsive](./assets/responsive.png)
 
 * [Link Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link)
