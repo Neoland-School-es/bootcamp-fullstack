@@ -1,5 +1,7 @@
 # Fundamentos de JavaScript
 
+* [Práctica de JS con Katas](https://jskatas.org/katas/groups/level-easy/)
+
 ## Conceptos básicos de programación
 
 * [Pseudocódigo](https://kinsta.com/es/base-de-conocimiento/que-es-pseudocodigo/)
