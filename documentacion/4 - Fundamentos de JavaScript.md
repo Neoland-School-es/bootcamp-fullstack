@@ -46,7 +46,13 @@
 
 ## [Estructuras y condicionales](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling)
 
+* [Falsy values](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)
+
 ## [Bucles](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
+
+* [While](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#while_statement)
+* [For...in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for...in_statement)
+* [For...of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for...of_statement)
 
 ## [Funciones](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
