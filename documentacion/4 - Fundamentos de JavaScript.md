@@ -50,9 +50,32 @@
 
 ## [Bucles](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
 
-* [While](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#while_statement)
-* [For...in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for...in_statement)
-* [For...of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for...of_statement)
+* [While](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#while_statement). Ejemplo de uso:
+
+```js
+let condicion = ''
+while (condicion !== 'he terminado') {
+  // lanzar peticion
+  condicion = API.getCondicion('https://API_URL')
+}
+```
+
+* [For...in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for...in_statement). Ejemplo de uso:
+
+```js
+for (let typeIndex in POKEMONS[i].type) {
+  let typeValue = POKEMONS[i].type[typeIndex]
+  console.log(typeIndex, typeValue)
+}
+```
+
+* [For...of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for...of_statement). Ejemplo de uso:
+
+```js
+for (let typeValue of POKEMONS[i].type) {
+  console.log(typeValue)
+}
+```
 
 ## [Funciones](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
