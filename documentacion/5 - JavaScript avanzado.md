@@ -108,6 +108,8 @@ Lectura recomendada: [Arquitectura orientada al dominio](https://dev.to/itswillt
 
 ## Inyección de dependencias
 
+* [Gestión de Paquetes y librerías](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Package_management)
+
 ### [Módulos](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
 
 [Importación de archivos estáticos](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import/with):
