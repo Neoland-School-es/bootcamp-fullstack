@@ -87,6 +87,7 @@ Lecturas recomendadas:
 
 ## Programación orientada a objetos
 
+* [Clases](https://developer.mozilla.org/en-US/docs/Glossary/Class)
 * Prototipos
 * Herencia
 * [Mixin](https://developer.mozilla.org/en-US/docs/Glossary/Mixin)
