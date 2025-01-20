@@ -74,6 +74,14 @@ Para más información, mejor [leer la referencia](https://git-scm.com/docs/gitm
 * **Interface segregation principle:** eliminación de dependencias innecesarias
 * **Dependency inversion principle:** los estados dependen de abstracciones, no de concreciones
 
+## Programación orientada a objetos
+
+* [Clases](https://developer.mozilla.org/en-US/docs/Glossary/Class)
+* Prototipos
+* Herencia
+* [Mixin](https://developer.mozilla.org/en-US/docs/Glossary/Mixin)
+* [Call](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call), [Apply](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply), [Bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind), [Assign](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
+
 ## [Patrones de diseño en JS](https://refactoring.guru/design-patterns)
 
 * Creacional: esta categoría se centra en los mecanismos de creación de objetos que optimizan y controlan la creación de objetos. Ejemplos: Factory, Builder, Singleton, Abstract y Prototype
@@ -84,14 +92,6 @@ Lecturas recomendadas:
 
 * [Patrones de arquitectura y diseño en JavaScript](https://medium.com/@hjkmines/javascript-design-and-architectural-patterns-cfa900c6fe41)
 * [Decoradores en JavaScript](https://www.sitepoint.com/javascript-decorators-what-they-are/)
-
-## Programación orientada a objetos
-
-* [Clases](https://developer.mozilla.org/en-US/docs/Glossary/Class)
-* Prototipos
-* Herencia
-* [Mixin](https://developer.mozilla.org/en-US/docs/Glossary/Mixin)
-* [Call](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call), [Apply](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply), [Bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind), [Assign](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
 
 ## Modelo Vista Controlador
 
