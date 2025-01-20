@@ -271,7 +271,7 @@ try {
 
 ### Tipado con Typescript
 
-### Validación de tipados con JSDOC
+* [Validación de tipados con JSDOC](https://www.typescriptlang.org/docs/handbook/intro-to-js-ts.html)
 
 ## Reactividad (signals)
 
