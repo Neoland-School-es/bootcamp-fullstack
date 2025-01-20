@@ -29,6 +29,7 @@
   * [split](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split): convertir en Array una cadena de texto usando las comas como separador, de forma que si introducimos varios artículos separados por comas en la caja de texto se añadan varios elementos a la lista de la compra
   * [toUpperCase](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase): convertir a texto en mayúsculas el nombre del artículo antes de añadirlo a la lista de la compra
   * [replaceAll](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll): reemplazar todos los caracteres numéricos por texto, dentro de una cadena de texto
+  * [Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 * Array
   * [isArray](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray): comprobar si la variable recibida es un Array o no, y luego mostrar el número de elementos del Array
   * [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach): mostrar por consola cada elemento de un array
