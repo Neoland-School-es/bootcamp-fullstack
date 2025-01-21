@@ -68,6 +68,7 @@ git config --global user.name "Your Name"
 En nuestro caso vamos a trabajar con archivos que el sistema oculta habitualmente, así que tenemos que habilitar su visualización:
 
 * En Windows: abre el explorador de archivo, en el menú selecciona **Opciones**, luego en la pestaña **Ver** desmarca la opción "Ocultar las extensiones de archivo para archivos conocidos".
+* También es recomendable [activar la opción para desarrolladores](https://learn.microsoft.com/es-es/windows/dev-home/), que optimiza el sistema y te da herramientas de desarrollo.
 * En Mac: ejecuta en el Terminal el comando: ```defaults write com.apple.finder AppleShowAllFiles true; killall Finder```
   * Si en algún momento el Mac te muestra este error: **Fix 'xcrun: error: invalid active developer path, missing xcrun'**, tendrás que ejecutar en el Terminal el comando ```xcode-select --install``` y seguir los pasos que te indique
 
