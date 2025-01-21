@@ -55,6 +55,7 @@ Necesitas instalar los siguientes programas para llevar a cabo el curso:
     * Con ésto ya tenemos Ubuntu actualizado, ejecuta ```exit``` para salir de la consola de Ubuntu y luego puedes cerrar la ventana del Power Shell
     * A partir de ahora tendremos disponible el Terminal de Ubuntu directamente dentro de Windows
 * [MongoDB](https://www.mongodb.com/docs/manual/installation/#std-label-tutorial-installation) es la base de datos documental que aprenderás durante el curso
+  * [Usar este enlace para la descarga en caso de duda](https://www.mongodb.com/try/download/community)
   * Durante la instalación te preguntará si instalar **Compass**, es el editor visual para la base de datos, es importante instalarlo también
   * [MonghoDB Shell](https://www.mongodb.com/docs/mongodb-shell/install/) es el intérprete de comandos para interactuar con la base de datos de MongoDB, también será necesario instalarlo
 
