@@ -38,7 +38,8 @@ Necesitas instalar los siguientes programas para llevar a cabo el curso:
   * Recuerda que cada vez que modifiques las variables de entorno o rutas del sistema tienes que reiniciar todas las ventanas de terminal o VS Code que tengas abiertas para que recoja los cambios (en Windows tendrás que reiniciar el ordenador).
 * [NVM](https://github.com/nvm-sh/nvm) es una herramienta que nos permite cambiar de versiones de NodeJS fácilmente
   * Crea el directorio ```C:\Users\<TU_USUARIO>\AppData\Roaming\npm```
-  * Abre el Terminal y ejecuta ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash```
+  * Abre el Terminal **BASH** y ejecuta ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash```
+  * **Si te indica algún tipo de error tipo "la función de revocación"**, usa este comando en su lugar: ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh --ssl-no-revoke | bash```
   * Reinicia el Terminal
   * Ahora puedes ejecutar ```nvm install 22```, y cambiar fácilmente de versión de NodeJS a partir de ahora
 * [WSL](https://github.com/microsoft/WSL) es el subsistema de Linux, que necesitaremos en Windows para alguna tarea en particular
