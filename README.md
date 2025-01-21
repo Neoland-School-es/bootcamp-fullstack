@@ -40,6 +40,7 @@ Necesitas instalar los siguientes programas para llevar a cabo el curso:
   * Crea el directorio ```C:\Users\<TU_USUARIO>\AppData\Roaming\npm```
   * Abre el Terminal **BASH** y ejecuta ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash```
   * **Si te indica algún tipo de error tipo "la función de revocación"**, usa este comando en su lugar: ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh --ssl-no-revoke | bash```
+  * **SI nvm ls-remote devuelve N/A**, añade esta línea a tu .bashrc o .zshrc: ```export NVM_NODEJS_ORG_MIRROR=http://nodejs.org/dist```
   * Reinicia el Terminal
   * Ahora puedes ejecutar ```nvm install 22```, y cambiar fácilmente de versión de NodeJS a partir de ahora
 * [WSL](https://github.com/microsoft/WSL) es el subsistema de Linux, que necesitaremos en Windows para alguna tarea en particular
