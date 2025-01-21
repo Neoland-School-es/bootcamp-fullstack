@@ -87,6 +87,7 @@ _Nota: esta parte es opcional, puedes dejarla para otro momento si lo consideras
   * [GitHub Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview) para trabajar más cómodamente con los documentos de tipo _markdown_ con el formato de GitHub
 * Tipografías adecuadas para el código: mi recomendación es usar [MesloLGS NF](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k)
 * Instalamos [Oh My Zsh](https://ohmyz.sh/): ```sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"```
+  * **Si tienes problemas de certificados**, usa esta versión del comando: ```sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" --ssl-no-revoke```
   * Puedes ajustar el theme como quieras, a mí me gusta usar el de Powerlevel10k: ```git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k```, añadiendo ```ZSH_THEME="powerlevel10k/powerlevel10k"``` a tu archivo ```~/.zshrc.```
   * No olvides ejecutar ```p10k configure``` después de estos cambios
   * Ejecuta estos comandos a continuación: ```autoload -U zsh-newuser-install``` y ```zsh-newuser-install -f```
