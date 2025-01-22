@@ -269,19 +269,65 @@ try {
 
 ## Tipado de variables
 
-### Tipado nativo de JavaScript
+* Tipado nativo en JavaScript (typeof):
 
-### Tipado con Typescript
+```js
+/**
+ * ejemplo de uso
+ *
+ * import { StringType } from './types/types.js'
+ * let cadena = new StringType(1)
+ * console.log('on load', cadena, cadena[0])
+ */
+export class StringType extends String {
+  constructor(value) {
+    super(value)
+    if (typeof value !== 'string') {
+      console.error(`${value} must be an string`)
+    }
+  }
+}
+```
+
+* [Typescript](https://www.typescriptlang.org/)
+
+```bash
+npm install typescript --save-dev
+npx tsc --init
+```
 
 * [Validación de tipados con JSDOC](https://www.typescriptlang.org/docs/handbook/intro-to-js-ts.html)
 
 ## Reactividad (signals)
 
+* [tc39 proposal](https://github.com/tc39/proposal-signals)
+* [Signals in JS](https://medium.com/@davletovalmir/what-are-signals-in-js-lets-build-one-and-find-out-0bd917dc0f35)
+
 ## REDUX Store
 
-## Web Sockets
+* [REDUX JS](https://redux.js.org/)
 
-## Web Workers
+## [Web Sockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
+
+```js
+// Create WebSocket connection.
+const socket = new WebSocket("ws://localhost:8080");
+
+// Connection opened
+socket.addEventListener("open", (event) => {
+  socket.send("Hello Server!");
+});
+
+// Listen for messages
+socket.addEventListener("message", (event) => {
+  console.log("Message from server ", event.data);
+});
+
+```
+
+## [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API)
+
+* [Ejemplo de proyecto con Web Workers](https://github.com/mdn/dom-examples/tree/main/web-workers/simple-web-worker)
 
 ## Testeo unitario y End to End
 
