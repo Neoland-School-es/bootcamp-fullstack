@@ -329,13 +329,20 @@ socket.addEventListener("message", (event) => {
 
 * [Ejemplo de proyecto con Web Workers](https://github.com/mdn/dom-examples/tree/main/web-workers/simple-web-worker)
 
-## Testeo unitario y End to End
+## Testing
 
-* Jest, Mocha, Chai
-* Cypress, Playwright, Vitest
-* Node Testing Library
+* Testeo unitario
+  * [Jest](https://jestjs.io/es-ES/docs/getting-started)
+  * [Mocha](https://mochajs.org/)
+  * [Chai](https://www.chaijs.com/)
+* End to End
+  * [Cypress](https://www.cypress.io/)
+  * [Playwright](https://playwright.dev/)
+  * [Vitest](https://vitest.dev/)
+  * [Node Test Runner](https://nodejs.org/api/test.html#test-runner)
 
-## Aplicaciones Progresivas (PWA)
+## Aplicaciones Progresivas
 
-* APIs del navegador
-* Manifest .appcache
+* [PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
+* [Web App Manifest](https://developer.mozilla.org/en-US/docs/Web/Manifest)
+* [What PWA can do today](https://whatpwacando.today/)
