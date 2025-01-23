@@ -306,6 +306,8 @@ npx tsc --init
 
 ## REDUX Store
 
+![Redux](https://redux.js.org/assets/images/ReduxDataFlowDiagram-49fa8c3968371d9ef6f2a1486bd40a26.gif)
+
 * [REDUX JS](https://redux.js.org/)
 
 ## [Web Sockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
