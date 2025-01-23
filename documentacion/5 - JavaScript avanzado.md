@@ -296,7 +296,8 @@ npm install typescript --save-dev
 npx tsc --init
 ```
 
-* [Validación de tipados con JSDOC](https://www.typescriptlang.org/docs/handbook/intro-to-js-ts.html)
+* [Validación de tipados con JSDOC en Typescript](https://www.typescriptlang.org/docs/handbook/intro-to-js-ts.html)
+* [Referencia de JSDOC](https://jsdoc.app/)
 
 ## Reactividad (signals)
 
