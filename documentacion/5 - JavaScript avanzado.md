@@ -388,10 +388,10 @@ Documentación:
   * [Vitest](https://vitest.dev/)
   * [Node Test Runner](https://nodejs.org/api/test.html#test-runner)
 
-## [Git Hooks](./Git%20Hooks.md)
-
 ## Aplicaciones Progresivas
 
 * [PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
 * [Web App Manifest](https://developer.mozilla.org/en-US/docs/Web/Manifest)
 * [What PWA can do today](https://whatpwacando.today/)
+
+## [Git Hooks](./Git%20Hooks.md)
