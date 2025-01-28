@@ -1,6 +1,6 @@
 # NodeJS
 
-## Instalación de Node, npm/x y nvm {#instalacion}
+* [Instalación de Node, npm/x y nvm](../README.md#programas-necesarios)
 
 ## El motor V8 de Google y Node
 
