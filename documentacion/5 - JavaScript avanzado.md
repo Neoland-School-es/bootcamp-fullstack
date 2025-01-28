@@ -1,7 +1,5 @@
 # JavaScript Avanzado
 
-Introducción a la segunda parte del Máster
-
 ## Dev Tools de Google chrome
 
 * [El panel de código fuente](https://developer.chrome.com/docs/devtools/sources)
