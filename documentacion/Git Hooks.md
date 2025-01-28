@@ -73,10 +73,6 @@ PRE-COMMIT HOOK
 
 Con lo que podemos quedarnos tranquilos de que el código del archivo ```.git/hooks/pre-commit``` se ejecuta correctamente cuando queremos, y por lo tanto hemos eliminado la dependencia de [Husky].
 
-Espero que esta guía te haya servido de ayuda, cualquier comentario o corrección es bienvenida.
-
-> Alvaro Isorna
-
 [Git Hooks]: https://git-scm.com/docs/githooks
 [lint-staged]: https://www.npmjs.com/package/lint-staged
 [Husky]: https://typicode.github.io/husky/#/
