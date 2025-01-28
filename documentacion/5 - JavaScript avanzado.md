@@ -330,9 +330,13 @@ socket.addEventListener("message", (event) => {
 
 ## [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API)
 
+Para inspeccionar los workers en el navegador hay que entrar en esta dirección: [chrome://inspect/#pages](chrome://inspect/#pages).
+
 * [Ejemplo de proyecto con Web Workers](https://github.com/mdn/dom-examples/tree/main/web-workers/simple-web-worker)
 
 ## Testing
+
+Técnica de programación [TDD](https://softwarecrafters.io/javascript/tdd-test-driven-development) (Test Driven Development).
 
 * Testeo unitario
   * [Jest](https://jestjs.io/es-ES/docs/getting-started)
