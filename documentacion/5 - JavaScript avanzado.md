@@ -338,6 +338,39 @@ Para inspeccionar los workers en el navegador hay que entrar en esta dirección:
 
 Técnica de programación [TDD](https://softwarecrafters.io/javascript/tdd-test-driven-development) (Test Driven Development).
 
+```bash
+npm install --save-dev jest
+npm install --save-dev jest-environment-jsdom
+```
+
+Añadir los siguientes comandos al archivo ```package.json```:
+
+```json
+"test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+"test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watchAll",
+```
+
+Crear el archivo ```jest.config.js```:
+
+```js
+// @ts-check
+
+/** @type {import('jest').Config} */
+const config = {
+  verbose: true,
+  testEnvironment: 'jsdom',
+  moduleNameMapper: {
+    '^classes\/(.*)': '<rootDir>/src/js/classes/$1.js',
+    '^decorators\/(.*)': '<rootDir>/src/js/decorators/$1.js',
+    '^utils\/(.*)': '<rootDir>/src/js/utils/$1.js',
+  }
+}
+
+export default config
+```
+
+Crea la carpeta ```__tests__``` y crea un archivo ```index.test.js```.
+
 * Testeo unitario
   * [Jest](https://jestjs.io/es-ES/docs/getting-started)
   * [Mocha](https://mochajs.org/)
