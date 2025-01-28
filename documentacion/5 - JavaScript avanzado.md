@@ -395,3 +395,7 @@ Documentación:
 * [What PWA can do today](https://whatpwacando.today/)
 
 ## [Git Hooks](./Git%20Hooks.md)
+
+* [Linters](./Linters.md)
+
+## [IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)
