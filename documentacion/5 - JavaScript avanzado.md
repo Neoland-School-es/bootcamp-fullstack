@@ -378,6 +378,8 @@ export default config
 
 Crea la carpeta ```__tests__``` y crea un archivo ```index.test.js```.
 
+Documentación:
+
 * Testeo unitario
   * [Jest](https://jestjs.io/es-ES/docs/getting-started)
   * [Mocha](https://mochajs.org/)
@@ -387,6 +389,8 @@ Crea la carpeta ```__tests__``` y crea un archivo ```index.test.js```.
   * [Playwright](https://playwright.dev/)
   * [Vitest](https://vitest.dev/)
   * [Node Test Runner](https://nodejs.org/api/test.html#test-runner)
+
+## [Git Hooks](./Git%20Hooks.md)
 
 ## Aplicaciones Progresivas
 
