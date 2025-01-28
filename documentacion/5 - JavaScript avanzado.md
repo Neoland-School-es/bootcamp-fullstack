@@ -350,6 +350,13 @@ Añadir los siguientes comandos al archivo ```package.json```:
 "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watchAll",
 ```
 
+Con ésto ya tenemos disponibles los comandos para ejecutar los tests:
+
+```bash
+npm run test
+npm run test:watch
+```
+
 Crear el archivo ```jest.config.js```:
 
 ```js
