@@ -58,6 +58,15 @@ echo PRE-COMMIT GIT HOOK
 npx lint-staged
 ```
 
+En el archivo ```.git/hooks/pre-push``` escribimos el siguiente código:
+
+```bash
+#!/usr/bin/env sh
+
+echo PRE-PUSH GIT HOOK
+npm run test
+```
+
 Para probarlo, crearemos desde la línea de comandos un commit con algún fichero js o css (en mi caso ```.eslintrc.js```), al ejecutar el ```git commit -m "COMMIT DE PRUEBA"``` nos mostrará algo parecido a ésto:
 
 ```bash
