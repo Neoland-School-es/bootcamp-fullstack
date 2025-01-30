@@ -116,3 +116,88 @@ app.delete('/users/:id', (req, res) => {
 * [Pug](https://www.npmjs.com/package/pug)
 * [Handlebars](https://www.npmjs.com/package/handlebars)
 * [EJS](https://www.npmjs.com/package/ejs)
+
+## Cookies
+
+```js
+const express = require('express');
+const app = express();
+
+app.get('/', (req, res) => {
+  // "name" and "value"
+  res.cookie('sessionId', '12345678', {
+    // "expires" - The cookie expires in 24 hours
+    expires: new Date(Date.now() + 86400000),
+    // "path" - The cookie is accessible for APIs under the '/api' route
+    path: '/api',
+    // "domain" - The cookie belongs to the 'example.com' domain
+    domain: 'example.com',
+    // "secure" - The cookie will be sent over HTTPS only
+    secure: true,
+    // "HttpOnly" - The cookie cannot be accessed by client-side scripts
+    httpOnly: true
+  });
+
+  // We can also use "maxAge" to specify expiration time in milliseconds
+  res.cookie('preferences', 'dark_theme', {
+    maxAge: 30 * 24 * 60 * 60 * 1000, // 30 days
+    httpOnly: true // For security, also set "httpOnly" flag
+  });
+
+  res.send('Cookies are set with different attributes.');
+});
+
+const server = app.listen(3000, () => {
+  console.log('Server running on port 3000...');
+});
+```
+
+## Sesiones
+
+```js
+const express = require('express');
+const session = require('express-session');
+
+const app = express();
+
+app.use(session({
+  secret: 'your_secret_key', // A secret key used to sign the session ID cookie
+  resave: false, // Forces the session to be saved back to the session store
+  saveUninitialized: false, // Forces a session that is "uninitialized" to be saved to the store
+  cookie: {
+    maxAge: 3600000, // Sets the cookie expiration time in milliseconds (1 hour here)
+    httpOnly: true, // Reduces client-side script control over the cookie
+    secure: true, // Ensures cookies are only sent over HTTPS
+  }
+}));
+
+app.get('/', (req, res) => {
+  if (req.session.views) {
+    req.session.views++;
+    res.send(`Number of views: ${req.session.views}`);
+  } else {
+    req.session.views = 1;
+    res.send('Welcome to this page for the first time!');
+  }
+});
+
+
+app.get('/store', (req, res) => {
+  // Save some data in the session
+  req.session.customData = 'This is saved in session.';
+  res.send('Data has been saved in the session.');
+});
+
+app.get('/retrieve', (req, res) => {
+  // Check if the session data exists before trying to access it
+  if (req.session.customData) {
+    res.send(`Here's your session data: ${req.session.customData}`);
+  } else {
+    res.send('No session data found.');
+  }
+});
+
+const server = app.listen(3000, () => {
+  console.log('Server running on port 3000...');
+});
+```
