@@ -19,6 +19,8 @@
 // /server/index.js
 var http = require('http');
 var url = require("url");
+import * as http from "node:http";
+import * as url from "node:url";
 
 http.createServer(function server_onRequest (request, response) {
     var pathname = url.parse(request.url).pathname;
