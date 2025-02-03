@@ -46,6 +46,17 @@ Ejecución con el archivo de configuración de entornos:
 node --env-file=.env server/index.js
 ```
 
+Solución de problemas de CORS: añadir las cabeceras a la response.
+
+```js
+response.setHeader('Access-Control-Allow-Origin', '*');
+response.setHeader('Content-Type', 'application/json');
+response.setHeader('Access-Control-Allow-Methods', 'OPTIONS, GET');
+response.setHeader("Access-Control-Allow-Headers", "*");
+response.setHeader('Access-Control-Max-Age', 2592000); // 30 days
+response.writeHead(200);
+```
+
 ## El sistema de ficheros
 
 [Módulo filesystem (fs)](https://nodejs.org/api/fs.html)
