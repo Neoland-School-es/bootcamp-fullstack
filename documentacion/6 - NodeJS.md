@@ -17,8 +17,6 @@
 
 ```js
 // /server/index.js
-var http = require('http');
-var url = require("url");
 import * as http from "node:http";
 import * as url from "node:url";
 
