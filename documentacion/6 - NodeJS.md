@@ -33,6 +33,19 @@ http.createServer(function server_onRequest (request, response) {
 console.log('Server running at http://' + process.env.IP + ':' + process.env.PORT + '/');
 ```
 
+Creación del archivo .env:
+
+```yaml
+PORT=1337
+IP=127.0.0.1
+```
+
+Ejecución con el archivo de configuración de entornos:
+
+```bash
+node --env-file=.env server/index.js
+```
+
 ## El sistema de ficheros
 
 [Módulo filesystem (fs)](https://nodejs.org/api/fs.html)
