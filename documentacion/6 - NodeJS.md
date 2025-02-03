@@ -113,6 +113,22 @@ response.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-typ
 response.setHeader('Access-Control-Allow-Credentials', true);
 ```
 
+## [Modificando archivos](https://nodejs.org/en/learn/manipulating-files/writing-files-with-nodejs)
+
+```js
+import * as fs from "node:fs";
+
+const content = 'Some content!';
+
+fs.writeFile('/Users/joe/test.txt', content, err => {
+  if (err) {
+    console.error(err);
+  } else {
+    // file written successfully
+  }
+});
+```
+
 ## Cookies
 
 Estructura de una cookie
