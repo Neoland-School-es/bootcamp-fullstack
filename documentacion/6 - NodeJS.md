@@ -43,7 +43,7 @@ IP=127.0.0.1
 Ejecución con el archivo de configuración de entornos:
 
 ```bash
-node --env-file=.env server/index.js
+node --env-file=.env --watch server/index.js
 ```
 
 Solución de problemas de CORS: añadir las cabeceras a la response.
