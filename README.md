@@ -17,7 +17,7 @@ Necesitas instalar los siguientes programas para llevar a cabo el curso:
   * [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) igualmente se encargará de guiarnos en la senda del buen programador, a la hora de editar estilos css
   * [GitHub Pull Requests](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) nos facilita la tarea a la hora de gestionar los cambios en el código dentro de nuestro repositorio
   * [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) nos ayudará a escribir correctamente el marcado de los documentos de tipo _markdown_
-  * [Postman](https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode)
+  * [Postman](https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode) nos permite trabajar con las APIs que desarrollemos localmente
 * [Git](http://git-scm.com/) será nuestro sistema de control de versiones
   * Asegúrate de elegir la opción **Git Bash** durante la instalación
 * [NodeJS](https://nodejs.org/en) es el lenguaje de programación que usaremos para el backend, y también para nuestras herramientas de automatización
