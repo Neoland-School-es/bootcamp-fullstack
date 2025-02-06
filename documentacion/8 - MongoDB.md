@@ -1,13 +1,29 @@
 # MongoDB
 
-* ¿Qué es el NoSQL?
+* ¿Qué es el [NoSQL](https://cloud.google.com/discover/what-is-nosql?hl=en#what-is-a-nosql-database)?
 * Modelo de datos en MongoDB
 * Modelo de query en MongoDB
 * Indexado de datos
-* Bases de datos y colecciones
+* [Colecciones](https://www.mongodb.com/docs/manual/reference/method/js-collection/)
 * Operaciones con los datos
+  * [read](https://www.mongodb.com/docs/drivers/node/current/fundamentals/crud/read-operations/retrieve/)
+    * [sort](https://www.mongodb.com/docs/drivers/node/current/fundamentals/crud/read-operations/sort/)
+    * [limit](https://www.mongodb.com/docs/drivers/node/current/fundamentals/crud/read-operations/limit/)
+    * [specify fields](https://www.mongodb.com/docs/drivers/node/current/fundamentals/crud/read-operations/project/)
+  * [insert](https://www.mongodb.com/docs/drivers/node/current/fundamentals/crud/write-operations/insert/)
+  * [update](https://www.mongodb.com/docs/drivers/node/current/fundamentals/crud/write-operations/modify/#update-documents)
+  * [delete](https://www.mongodb.com/docs/drivers/node/current/fundamentals/crud/write-operations/delete/)
+* [Operadores de búsqueda](https://www.mongodb.com/docs/manual/reference/operator/query/)
 
 ## Conexión con MongoDB
+
+Instalación de la librería:
+
+```bash
+npm install --save-dev mongodb@6.13
+```
+
+Conexión con la instancia local de MongoDB:
 
 ```js
 const MongoClient = require("mongodb").MongoClient;
