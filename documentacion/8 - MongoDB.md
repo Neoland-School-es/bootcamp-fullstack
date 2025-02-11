@@ -9,6 +9,7 @@
 * Operaciones con los datos
   * [read](https://www.mongodb.com/docs/drivers/node/current/fundamentals/crud/read-operations/retrieve/)
     * [sort](https://www.mongodb.com/docs/drivers/node/current/fundamentals/crud/read-operations/sort/)
+    * [skip](https://www.mongodb.com/docs/drivers/node/current/fundamentals/crud/read-operations/skip/)
     * [limit](https://www.mongodb.com/docs/drivers/node/current/fundamentals/crud/read-operations/limit/)
     * [specify fields](https://www.mongodb.com/docs/drivers/node/current/fundamentals/crud/read-operations/project/)
   * [insert](https://www.mongodb.com/docs/drivers/node/current/fundamentals/crud/write-operations/insert/)
