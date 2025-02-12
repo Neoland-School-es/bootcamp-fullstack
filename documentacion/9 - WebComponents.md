@@ -235,3 +235,5 @@ button {
   * [Snippets](https://svelte.dev/docs/svelte/snippet)
 * [Elementos especiales](https://svelte.dev/docs/svelte/svelte-window)
 * [Ciclo de vida](https://svelte.dev/docs/svelte/lifecycle-hooks)
+
+## [HTMX](https://htmx.org/docs/#introduction)
