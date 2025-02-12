@@ -17,6 +17,7 @@
   * [delete](https://www.mongodb.com/docs/drivers/node/current/fundamentals/crud/write-operations/delete/)
 * [Operadores de búsqueda](https://www.mongodb.com/docs/manual/reference/operator/query/)
 * [Operaciones en grupo](https://www.mongodb.com/docs/drivers/node/current/fundamentals/aggregation/#std-label-node-aggregation)
+* [Búsquedas agregadas](https://www.mongodb.com/docs/drivers/node/current/aggregation-tutorials/one-to-one-join/)
 
 ## Conexión con MongoDB
 
