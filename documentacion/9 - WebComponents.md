@@ -13,6 +13,16 @@
     4. Añadir `// @ts-expect-error TS doesn't like this` justo antes de la importación
 * [Templates y Slots](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_templates_and_slots)
 
+### Comparativa de librerías de Componentes Web
+
+| Librería | Facilidad de aprendizaje | Optimización y potencia | Demanda laboral | Paz mental |
+|---|:---:|:---:|:---:|:---:|
+| Lit Element | 1 | 4 | 2 | 1 |
+| Vue JS | 2 | 3 | 3 | 2 |
+| Angular | 4 | 1 | 2 | 3 |
+| React JS | 3 | 1 | 1 | 4 |
+| Svelte JS | 2 | 2 | 4 | 1 |
+
 ## [LitElement](https://lit.dev/)
 
 Instalación local de Lit:
