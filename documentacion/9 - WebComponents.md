@@ -12,6 +12,7 @@
     3. Usar la importación con `import css from '../css/styles.css' assert { type: 'css' }`
     4. Añadir `// @ts-expect-error TS doesn't like this` justo antes de la importación
 * [Templates y Slots](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_templates_and_slots)
+* [Implementación de Single File Web Components](https://ckeditor.com/blog/implementing-single-file-web-components/)
 
 ### Comparativa de librerías de Componentes Web
 
