@@ -39,6 +39,12 @@ import {LitElement, html} from 'lit';
 import {customElement, property} from 'lit/decorators.js';
 ```
 
+Importación de Lit desde el CDN:
+
+```js
+import { LitElement, html } from 'https://cdn.jsdelivr.net/gh/lit/dist@3/all/lit-all.min.js';
+```
+
 [Declaración](https://lit.dev/docs/components/defining/) de un componente:
 
 ```js
