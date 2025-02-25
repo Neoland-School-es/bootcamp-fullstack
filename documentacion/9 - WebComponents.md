@@ -124,7 +124,7 @@ app.mount('#app')
   * [Modelos](https://vuejs.org/guide/components/v-model.html)
   * [Slots](https://vuejs.org/guide/components/slots.html)
 
-## [AngularJS](https://angularjs.dev/)
+## [AngularJS](https://angular.dev/)
 
 Instalación y creación de un proyecto:
 
