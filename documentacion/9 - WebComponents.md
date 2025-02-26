@@ -163,8 +163,9 @@ export class UserProfile {
 }
 ```
 
-* [Reactividad](https://angular.dev/guide/signals)
 * [Componentes](https://angular.dev/guide/components)
+* [Ciclo de vida](https://angular.dev/guide/components/lifecycle)
+* [Reactividad](https://angular.dev/guide/signals)
 * [Templates](https://angular.dev/guide/templates)
 * [Events](https://angular.dev/guide/templates/event-listeners)
 * [Operadores de control de flujo](https://angular.dev/guide/templates/control-flow)
