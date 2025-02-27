@@ -208,6 +208,7 @@ root.render(<NavigationBar />);
   * [Gestión avanzada de los estados](https://react.dev/learn/managing-state)
 * [Renderizado](https://react.dev/learn/render-and-commit)
 * [Referencias](https://react.dev/learn/referencing-values-with-refs)
+* [Métodos de React Avanzado](https://dev.to/philipjohnbasile/hooked-on-react-the-complete-guide-to-react-19s-function-component-superpowers-1hdj)
 
 ## [SvelteJS](https://svelte.dev/)
 
