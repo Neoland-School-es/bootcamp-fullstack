@@ -208,6 +208,7 @@ root.render(<NavigationBar />);
   * [Gestión avanzada de los estados](https://react.dev/learn/managing-state)
 * [Renderizado](https://react.dev/learn/render-and-commit)
 * [Referencias](https://react.dev/learn/referencing-values-with-refs)
+* [Páginas y Layouts con Next.js](https://nextjs.org/docs/app/getting-started/layouts-and-pages)
 * [Métodos de React Avanzado](https://dev.to/philipjohnbasile/hooked-on-react-the-complete-guide-to-react-19s-function-component-superpowers-1hdj)
 * [Mejora del rendimiento en React](https://www.freecodecamp.org/news/react-performance-optimization-techniques/)
 
