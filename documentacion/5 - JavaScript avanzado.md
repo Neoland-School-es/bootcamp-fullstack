@@ -90,6 +90,7 @@ Lecturas recomendadas:
 
 * [Patrones de arquitectura y diseño en JavaScript](https://medium.com/@hjkmines/javascript-design-and-architectural-patterns-cfa900c6fe41)
 * [Decoradores en JavaScript](https://www.sitepoint.com/javascript-decorators-what-they-are/)
+* [Patrones que aplican la reactividad](https://frontendmasters.com/blog/vanilla-javascript-reactivity/)
 
 ## Modelo Vista Controlador
 
