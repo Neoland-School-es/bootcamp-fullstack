@@ -13,11 +13,20 @@ Necesitas instalar los siguientes programas para llevar a cabo el curso:
   * [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) es un servidor local para nuestras páginas html dentro de VS Code
   * [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) nos ayudará a documentar cada cambio de código que subamos al repositorio. Podéis leer la documentación oficial en [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
   * [commitlint](https://marketplace.visualstudio.com/items?itemName=joshbolduc.commitlint) se asegurará de que escribamos bien los comentarios de los cambios en el repositorio
+  * [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
   * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) nos chivará los errores que cometamos en el código, es una herramienta fundamental para agilizar nuestro trabajo
   * [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) igualmente se encargará de guiarnos en la senda del buen programador, a la hora de editar estilos css
   * [GitHub Pull Requests](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) nos facilita la tarea a la hora de gestionar los cambios en el código dentro de nuestro repositorio
   * [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) nos ayudará a escribir correctamente el marcado de los documentos de tipo _markdown_
   * [Postman](https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode) nos permite trabajar con las APIs que desarrollemos localmente
+  * [PWABuilder Studio](https://marketplace.visualstudio.com/items?itemName=PWABuilder.pwa-studio)
+  * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+  * [lit-html](https://marketplace.visualstudio.com/items?itemName=bierner.lit-html)
+  * [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+  * [Codeium](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium)
+  * [Cascade](https://marketplace.visualstudio.com/items?itemName=rampus-bit.cascade)
+  * [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
+  * [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 * [Git](http://git-scm.com/) será nuestro sistema de control de versiones
   * Asegúrate de elegir la opción **Git Bash** durante la instalación
 * [NodeJS](https://nodejs.org/en) es el lenguaje de programación que usaremos para el backend, y también para nuestras herramientas de automatización
