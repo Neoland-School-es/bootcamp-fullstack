@@ -32,6 +32,8 @@ En nuestro caso vamos a trabajar con archivos que el sistema oculta habitualment
 
 ## Crear y trabajar con ramas
 
+[Estándar de Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
+
 ## [Submódulos de Git](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
 
 Primero entras en la carpeta de tu proyecto principal desde el terminal, donde quieres que se clone el submódulo, y a continuación:
