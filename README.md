@@ -96,12 +96,25 @@ _Nota: esta parte es opcional, puedes dejarla para otro momento si lo consideras
   * [Cascade theme](https://marketplace.visualstudio.com/items?itemName=rampus-bit.cascade) un theme de color personalizado, adecuado para el trabajo contínuo con el código
   * [GitHub Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview) para trabajar más cómodamente con los documentos de tipo _markdown_ con el formato de GitHub
 * Tipografías adecuadas para el código: mi recomendación es usar [MesloLGS NF](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k)
+* Instalar Zsh dentro de Git Bash
+  1. Download the latest Zsh package from the [MSYS2 package repository](https://packages.msys2.org/package/zsh?repo=msys&variant=x86_64). The file will be named something like “zsh-5.8–5-x86_64.pkg.tar.zst”.
+  2. Install an extractor that can open TAR and ZST archives, such as [7-Zip](https://www.7-zip.org/) and [facebook/zstd](https://github.com/facebook/zstd) (named something like “zstd-v1.5.2-win64.zip”). First, use zstd to extract the TAR file. Later, use 7-Zip to extract the files into the Git Bash directory.
+  3. Extract the archive’s files using 7-Zip (which should include etc and usr folders) into your Git Bash installation directory. This directory is usually located at "C:\Program Files\Git". If asked, merge the contents of the folder (no files should be overwritten).
+  4. Open Git Bash and test Zsh: ```zsh```.
+
+**IMPORTANT:** Configure tab completion and history in Zsh using the first-use wizard. If, for some reason, it doesn’t appear, or you skipped it, re-run it:
+
+```bash
+autoload -U zsh-newuser-install
+zsh-newuser-install -f
+```
+
 * Instalamos [Oh My Zsh](https://ohmyz.sh/): ```sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"```
   * **Si tienes problemas de certificados**, usa esta versión del comando: ```sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh --ssl-no-revoke)"```
   * Puedes ajustar el theme como quieras, a mí me gusta usar el de Powerlevel10k: ```git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k```, añadiendo ```ZSH_THEME="powerlevel10k/powerlevel10k"``` a tu archivo ```~/.zshrc.```
   * No olvides ejecutar ```p10k configure``` después de estos cambios
   * Ejecuta estos comandos a continuación: ```autoload -U zsh-newuser-install``` y ```zsh-newuser-install -f```
-  * Finalmente editamos el archivo ~/.bashrc añadiendo estas líneas:
+  * Finalmente editamos el archivo con ```code ~/.bashrc``` añadiendo estas líneas:
 
 ```yaml
 if [ -t 1 ]; then
