@@ -19,14 +19,15 @@ Necesitas instalar los siguientes programas para llevar a cabo el curso:
   * [GitHub Pull Requests](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) nos facilita la tarea a la hora de gestionar los cambios en el código dentro de nuestro repositorio
   * [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) nos ayudará a escribir correctamente el marcado de los documentos de tipo _markdown_
   * [Postman](https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode) nos permite trabajar con las APIs que desarrollemos localmente
-  * [PWABuilder Studio](https://marketplace.visualstudio.com/items?itemName=PWABuilder.pwa-studio)
-  * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
-  * [lit-html](https://marketplace.visualstudio.com/items?itemName=bierner.lit-html)
-  * [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
-  * [Codeium](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium)
-  * [Cascade](https://marketplace.visualstudio.com/items?itemName=rampus-bit.cascade)
-  * [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
-  * [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+  * [PWABuilder Studio](https://marketplace.visualstudio.com/items?itemName=PWABuilder.pwa-studio) sirve para generar el código necesario para instalar nuestra web como una aplicación nativa
+  * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) es el sistema de iconos estándar de Google Material Design
+  * [lit-html](https://marketplace.visualstudio.com/items?itemName=bierner.lit-html) añade compatibilidad para trabajar con LitElement
+  * [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) nos ayudara a mantener un estandard de configuración de los archivos de nuestro proyecto
+  * [Codeium](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium) nos ayudara a escribir códigos de manera inteligente gracias a la IA
+  * [Cascade](https://marketplace.visualstudio.com/items?itemName=rampus-bit.cascade) es un theme de color personalizado, adecuado para el trabajo contínuo con el código
+  * [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) nos ayudara a cerrar correctamente las etiquetas de html
+  * [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) nos ayudara a renombrar correctamente las etiquetas de html
+  * [MongoDB for VS Code](https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode) nos ayudara a trabajar con la base de datos MongoDB
 * [Git](http://git-scm.com/) será nuestro sistema de control de versiones
   * Asegúrate de elegir la opción **Git Bash** durante la instalación
 * [NodeJS](https://nodejs.org/en) es el lenguaje de programación que usaremos para el backend, y también para nuestras herramientas de automatización
