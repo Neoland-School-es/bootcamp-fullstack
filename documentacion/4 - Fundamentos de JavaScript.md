@@ -61,7 +61,7 @@ while (condicion !== 'he terminado') {
 }
 ```
 
-* [For...in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for...in_statement). Ejemplo de uso:
+* [For...in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for...in_statement) para Objetos. Ejemplo de uso:
 
 ```js
 for (let typeIndex in POKEMONS[i].type) {
@@ -70,11 +70,11 @@ for (let typeIndex in POKEMONS[i].type) {
 }
 ```
 
-* [For...of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for...of_statement). Ejemplo de uso:
+* [For...of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for...of_statement) para iterables (Array). Ejemplo de uso:
 
 ```js
-for (let typeValue of POKEMONS[i].type) {
-  console.log(typeValue)
+for (let pokemon of POKEMONS) {
+  console.log(pokemon.name.english)
 }
 ```
 
