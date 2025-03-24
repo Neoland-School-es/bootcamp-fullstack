@@ -100,3 +100,7 @@ for (let pokemon of POKEMONS) {
 
 * [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Window/fetch)
 * [Promesas](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+
+## Practica de Git Branches
+
+* [Learn Git Branching](https://learngitbranching.js.org/?locale=es_ES)
