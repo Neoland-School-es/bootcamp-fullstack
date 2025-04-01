@@ -45,7 +45,7 @@ Necesitas instalar los siguientes programas para llevar a cabo el curso:
         4. Añade esta línea al archivo: ```PATH=/usr/bin/node:$PATH```, guárdalo y ciérralo
     * En Linux:
         1. Abre el Terminal
-        2. Ejecuta export ```PATH=$PATH:/usr/local/nodejs/bin```
+        2. Ejecuta ```export PATH=$PATH:/usr/local/nodejs/bin```
   * Recuerda que cada vez que modifiques las variables de entorno o rutas del sistema tienes que reiniciar todas las ventanas de terminal o VS Code que tengas abiertas para que recoja los cambios (en Windows tendrás que reiniciar el ordenador).
 * [NVM](https://github.com/nvm-sh/nvm) es una herramienta que nos permite cambiar de versiones de NodeJS fácilmente
   * Crea el directorio ```C:\Users\<TU_USUARIO>\AppData\Roaming\npm```
