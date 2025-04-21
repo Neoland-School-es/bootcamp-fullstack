@@ -4,6 +4,8 @@
 
 ```bash
 npm install --save express
+npm install --save-dev @types/express
+npm install --save-dev @types/body-parser
 ```
 
 Ejemplo de uso:
