@@ -24,7 +24,7 @@
 Instalación de la librería:
 
 ```bash
-npm install --save-dev mongodb@6.13
+npm install --save mongodb@6.13
 ```
 
 Conexión con la instancia local de MongoDB:
