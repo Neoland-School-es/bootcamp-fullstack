@@ -113,6 +113,14 @@ app.delete('/users/:id', (req, res) => {
 })
 ```
 
+[Códigos de respuesta](https://es.wikipedia.org/wiki/Anexo:C%C3%B3digos_de_estado_HTTP) habituales del servidor para las apis:
+
+* 200 - OK
+* 201 - Created
+* 202 - Accepted
+* 403 - Forbidden
+* 404 - Not Found
+
 ## [Uso de plantillas](https://expressjs.com/en/guide/using-template-engines.html)
 
 * [Pug](https://www.npmjs.com/package/pug)
