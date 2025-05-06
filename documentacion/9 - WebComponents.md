@@ -65,6 +65,11 @@ customElements.define('my-element', MyElement);
   * Condicionales
   * Listas
   * Directivas
+ 
+### Creación de un proyecto lit con kits de inicio:
+
+* Usando el [kit de Lit](https://lit.dev/docs/tools/starter-kits/): `git clone https://github.com/lit/lit-element-starter-js`
+* Usando [Vite](https://vite.dev/guide/#scaffolding-your-first-vite-project): `npm create vite@latest my-lit-app -- --template lit`
 
 ## [VueJS](https://vuejs.org/)
 
