@@ -202,6 +202,7 @@ const root = createRoot(document.getElementById('app'));
 root.render(<NavigationBar />);
 ```
 
+* Usando [Vite](https://vite.dev/guide/#scaffolding-your-first-vite-project): `npm create vite@latest my-react-app -- --template react`
 * [Pensando a la manera de React](https://react.dev/learn/thinking-in-react)
 * [Componentes](https://react.dev/learn/your-first-component)
 * [JSX](https://react.dev/learn/writing-markup-with-jsx)
