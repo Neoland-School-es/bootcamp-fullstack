@@ -218,6 +218,82 @@ root.render(<NavigationBar />);
 * [Métodos de React Avanzado](https://dev.to/philipjohnbasile/hooked-on-react-the-complete-guide-to-react-19s-function-component-superpowers-1hdj)
 * [Mejora del rendimiento en React](https://www.freecodecamp.org/news/react-performance-optimization-techniques/)
 
+### Uso del router de react:
+
+```bash
+npm install react-router-dom antd
+```
+
+```jsx
+// App.jsx
+import React from 'react';
+import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
+import Home from './pages/Home';
+import Login from './pages/auth/Login';
+import Register from './pages/auth/Register';
+import Header from './components/nav/Header';
+
+
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<Header />}>
+      <Route index element={<Home />} />
+      <Route path="login" element={<Login />} />
+      <Route path="register" element={<Register />} />
+    </Route>
+  )
+)
+
+function App({routes}) {
+
+  return (
+    <>
+      <RouterProvider router={router}/>
+    </>
+  );
+}
+
+export default App;
+```
+
+```jsx
+// Header.jsx
+import { HomeTwoTone, EditTwoTone, CheckCircleTwoTone } from '@ant-design/icons';
+import { Menu } from 'antd';
+import { useState } from 'react';
+import { Outlet, Link } from 'react-router-dom';
+
+
+const Header = () => {
+  const [current, setCurrent] = useState('h');
+  const onClick = (e) => {
+    console.log('click ', e);
+    setCurrent(e.key);
+  };
+  return (
+    <>
+     <Menu onClick={onClick} selectedKeys={[current]} mode="horizontal">
+      <Menu.Item key="h" icon= {<HomeTwoTone />}>
+       <Link to="/">Home</Link>
+      </Menu.Item>
+      <Menu.Item key="r" icon= {<EditTwoTone />}>
+        <Link to="/register">Register</Link>
+      </Menu.Item>
+      <Menu.Item key="l" icon= {<CheckCircleTwoTone />}>
+        <Link to="/login">Login</Link>
+      </Menu.Item>
+     </Menu>
+     <Outlet/>
+    </>
+   
+  )
+};
+export default Header;
+```
+
+Más información en este artículo: [Vite-React + React-Router-Dom](https://medium.com/@galohernandez/vite-react-react-router-dom-the-latest-way-312ee887197e).
+
 ## [SvelteJS](https://svelte.dev/)
 
 Instalación y uso:
