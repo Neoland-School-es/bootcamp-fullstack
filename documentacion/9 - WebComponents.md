@@ -221,7 +221,7 @@ root.render(<NavigationBar />);
 ### Uso del router de react:
 
 ```bash
-npm install react-router-dom antd
+npm install react-router-dom
 ```
 
 ```jsx
@@ -259,37 +259,26 @@ export default App;
 
 ```jsx
 // Header.jsx
-import { HomeTwoTone, EditTwoTone, CheckCircleTwoTone } from '@ant-design/icons';
-import { Menu } from 'antd';
-import { useState } from 'react';
 import { Outlet, Link } from 'react-router-dom';
 
-
-const Header = () => {
-  const [current, setCurrent] = useState('h');
-  const onClick = (e) => {
-    console.log('click ', e);
-    setCurrent(e.key);
-  };
+function Header() {
   return (
     <>
-     <Menu onClick={onClick} selectedKeys={[current]} mode="horizontal">
-      <Menu.Item key="h" icon= {<HomeTwoTone />}>
-       <Link to="/">Home</Link>
-      </Menu.Item>
-      <Menu.Item key="r" icon= {<EditTwoTone />}>
-        <Link to="/register">Register</Link>
-      </Menu.Item>
-      <Menu.Item key="l" icon= {<CheckCircleTwoTone />}>
-        <Link to="/login">Login</Link>
-      </Menu.Item>
-     </Menu>
-     <Outlet/>
+      <header>
+        <h1>Ejemplo de Vite + React</h1>
+        <nav>
+          <menu>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/login">Login</Link></li>
+          </menu>
+        </nav>
+      </header>
+      <Outlet/>
     </>
-   
   )
-};
-export default Header;
+}
+
+export default Header
 ```
 
 Más información en este artículo: [Vite-React + React-Router-Dom](https://medium.com/@galohernandez/vite-react-react-router-dom-the-latest-way-312ee887197e).
