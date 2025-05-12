@@ -378,6 +378,41 @@ export default config
 
 Crea la carpeta ```__tests__``` y crea un archivo ```index.test.js```.
 
+### Testeo de componentes web (con Lit)
+
+1. Descargar la librería de Lit [desde el CDN](https://cdn.jsdelivr.net/gh/lit/dist@3/all/lit-all.min.js) a la carpeta `/src/lib/`.
+2. Instalar las siguientes librerías como complentos del sistema de testing con componentes web: `npm install --save-dev cross-fetch identity-obj-proxy`
+3. Crear el archivo `/jest.setup.js` con el contenido: `import 'cross-fetch/polyfill';` para usar el fetch desde jest.
+4. Crear el archivo `/__mocks__/fileMock.js` con el contenido: `export default 'test-file-stub';` para redirigir las peticiones a archivos de imágenes/media a mocks para que Jest no falle al importarlos.
+5. Actualizamos `/jest.config.js` para usar ambas librerías:
+
+```js
+// @ts-check
+
+/** @type {import('jest').Config} */
+const config = {
+  verbose: true,
+  testEnvironment: 'jsdom',
+  injectGlobals: true,
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
+  moduleNameMapper: {
+    '^classes/(.*)': '<rootDir>/src/js/classes/$1.js',
+    '^decorators/(.*)': '<rootDir>/src/js/decorators/$1.js',
+    '^utils/(.*)': '<rootDir>/src/js/utils/$1.js',
+    '^lib/(.*)': '<rootDir>/src/js/lib/$1.js',
+    '^store/(.*)': '<rootDir>/src/js/store/$1.js',
+    'https://cdn.jsdelivr.net/gh/lit/dist@3/all/lit-all.min.js': '<rootDir>/src/js/lib/lit-all.min.js',
+    '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$': '<rootDir>/__mocks__/fileMock.js',
+    '\\.(css|less|scss|sass)$': 'identity-obj-proxy'
+    },
+  fakeTimers: {
+    enableGlobally: true,
+  },
+}
+
+export default config
+```
+
 Documentación:
 
 * Testeo unitario
