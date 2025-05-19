@@ -25,27 +25,11 @@ app.listen(port, () => {
 })
 ```
 
-[Habilitar reinicio del servidor tras los cambios con Nodemon](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/skeleton_website#enable_server_restart_on_file_changes)
-
-```bash
-npm install --save-dev nodemon
-```
-
-Modificar los scripts de inicio, para Linux/MAC:
+Modificar los scripts de inicio:
 
 ```json
 "scripts": {
-  "start": "node ./bin/www",
-  "devstart": "nodemon ./bin/www",
-  "serverstart": "DEBUG=express-locallibrary-tutorial:* npm run devstart"
-}
-```
-
-Y para Windows:
-
-```json
-"scripts": {
-  "serverstart": "SET DEBUG=express-locallibrary-tutorial:* & npm run devstart"
+  "server:express:watch": "node --env-file=.env --watch server/server.express.js"
 }
 ```
 
@@ -127,7 +111,11 @@ app.delete('/users/:id', (req, res) => {
 * [Handlebars](https://www.npmjs.com/package/handlebars)
 * [EJS](https://www.npmjs.com/package/ejs)
 
-## Cookies
+## [Cookies](https://expressjs.com/resources/middleware/cookie-parser.html)
+
+```bash
+npm install --save cookie-parser
+```
 
 ```js
 const express = require('express');
@@ -162,7 +150,11 @@ const server = app.listen(3000, () => {
 });
 ```
 
-## Sesiones
+## [Sesiones](https://expressjs.com/en/resources/middleware/session.html)
+
+```bash
+npm install --save express-session
+```
 
 ```js
 const express = require('express');
