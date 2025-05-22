@@ -1,0 +1,4 @@
+{
+  "!(*service-worker).js": "eslint --fix",
+  "!(*output).css": "stylelint"
+}
