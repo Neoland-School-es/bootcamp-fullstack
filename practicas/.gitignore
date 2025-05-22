@@ -1,0 +1,9 @@
+_hidden
+node_modules
+dist
+build
+out
+.env
+.env.prod
+# Local Netlify folder
+.netlify
